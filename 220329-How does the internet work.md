@@ -8,7 +8,7 @@
 
 ##### 참고한 사이트
 
-> https://developer.mozilla.org/ko/docs/Learn/Common_questions/How_does_the_Internet_work<br> >https://velog.io/@exploit017/1.-%EC%9D%B8%ED%84%B0%EB%84%B7%EC%9D%80-%EC%96%B4%EB%96%BB%EA%B2%8C-%EC%9E%91%EB%8F%99%ED%95%98%EB%8A%94%EA%B0%80 > http://encykorea.aks.ac.kr/Contents/Item/E0047110
+> https://developer.mozilla.org/ko/docs/Learn/Common_questions/How_does_the_Internet_work <br> > https://velog.io/@exploit017/1.-%EC%9D%B8%ED%84%B0%EB%84%B7%EC%9D%80-%EC%96%B4%EB%96%BB%EA%B2%8C-%EC%9E%91%EB%8F%99%ED%95%98%EB%8A%94%EA%B0%80 > http://encykorea.aks.ac.kr/Contents/Item/E0047110 > https://velog.io/@cks3066/%EC%9D%B8%ED%84%B0%EB%84%B7%EC%9D%B8%ED%84%B0%EB%84%B7%EC%9D%98-%EC%9E%91%EB%8F%99-%EC%9B%90%EB%A6%AC
 
 <br>
 
@@ -24,10 +24,19 @@ TCP/IP 프로토콜을 사용하는 네트워크의 네트워크 또는 네트�
 ##### 인터넷 변화 양상
 
 1. 컴퓨터 ↔ 컴퓨터<br>
+   > 직접적인 연결을 통한 통신<br>
+   > 그 수가 많아질 경우 너무 많은 케이블 연결이 필요
 2. 컴퓨터 ↔ 라우터 ↔ 컴퓨터<br>
 3. 컴퓨터 ↔ 라우터 ↔ 라우터 ↔ 컴퓨터<br>
+   > 라우터를 이용해 컴퓨터를 간접적으로 연결<br>
+   > 사용하는 케이블 수를 줄일 수 있음<br>
+   > 무수히 많은 수의 컴퓨터 연결이 가능해진다.<br>
+   > 하지만, 이 경우에도 먼 거리에 있는 컴퓨터와의 통신은 어려움
 4. 컴퓨터 ↔ 라우터 ↔ 모뎀 ↔ 전화 시설 ~<br>
+   > 전화선을 통해 컴퓨터가 인터넷 서비스 제공업체(ISP)와 통신할 수 있게 해주는 장치
 5. 컴퓨터 ↔ 라우터 ↔ 모뎀 ↔ 전화 시설 ↔ ISP (↔ ISP) ↔ 전화 시설 ↔ 모뎀 ↔ 라우터 ↔ 컴퓨터<br>
+   > KT,SKT,LG U+ 같은 ISP 업체는 특수한 라우터를 관리하며 다른 ISP의 라우터에도 액세스할 수 있는 회사<br>
+   > ISP가 중간에서 데이터를 전달해주는 이러한 통신을 통해 전체 네트워크 인프라가 구성
 
 <br>
 
@@ -42,7 +51,8 @@ TCP/IP 프로토콜을 사용하는 네트워크의 네트워크 또는 네트�
 ##### 라우터
 
 주어진 컴퓨터에서 보낸 메세지가 올바른 대상 컴퓨터에 도착하는지 확인
-![image](https://user-images.githubusercontent.com/77482972/160395406-16fda13c-fd8a-40a4-89e5-794f0781019c.png)
+![image](https://user-images.githubusercontent.com/77482972/160395406-16fda13c-fd8a-40a4-89e5-794f0781019c.png)<br>
+네트워크 계층은 라우터를 이용해 송신지에서 수신지까지 가장 좋은 경로를 선택
 
 <br>
 
@@ -64,3 +74,11 @@ TCP/IP 프로토콜을 사용하는 네트워크의 네트워크 또는 네트�
 ![image](https://user-images.githubusercontent.com/77482972/160395699-f6976fb8-e2fb-4da6-b3a7-6b48f822b370.png)
 
 <br>
+
+##### IP 주소
+
+컴퓨터에서 서로를 인식할 수 있는 주소<br>
+3개의 점(.)으로 구분되는 숫자로 구성<br>
+IP 주소는 매번 기억하기 힘들어 www.naver.com과 같은 도메인 주소를 사용하게 된다.
+
+##### TCP/IP
